@@ -1,0 +1,16 @@
+name: RandomSpawn
+version: ${project.version}
+main: com.ismaiiil.randomspawn.RandomSpawn
+api-version: 1.16
+authors: [ Ismail_Nassurally ]
+description: new players joining are spawned at a random location in a radius
+
+commands:
+  randomspawn:
+    description: Plugin used to allow random spawning (radius in config file)
+    usage: /random_teleport <player> [<x> | "print"] [<y> | "noy"] <z>
+    permission: randomspawn.basic
+  reloadconfig:
+    description: Command used to reload config files
+    usage: /reloadconfig
+    permission: randomspawn.reload
