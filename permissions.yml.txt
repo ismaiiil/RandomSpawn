@@ -1,0 +1,8 @@
+randomspawn.basics:
+  description: Permission to use randomspawn plugin functionalities
+  default: op
+randomspawn.reload:
+  description: Permission to reload plugin
+  default: op
+
+  

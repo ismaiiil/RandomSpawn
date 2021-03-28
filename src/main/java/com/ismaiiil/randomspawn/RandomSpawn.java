@@ -26,6 +26,7 @@ public final class RandomSpawn extends JavaPlugin implements CommandExecutor, Li
         getServer().getPluginManager().registerEvents(this, this);
         saveDefaultConfig();
         getCommand("randomspawn").setExecutor(this);
+        getCommand("reloadconfig").setExecutor(new ReloadSpawn());
         getCommand("randomspawn").setTabCompleter(this);
 
     }

@@ -12,6 +12,7 @@ public class ReloadSpawn implements CommandExecutor {
             RandomSpawn rd = (RandomSpawn) Bukkit.getServer().getPluginManager().getPlugin("RandomSpawn");
             if (rd != null){
                 rd.reloadConfig();
+                sender.sendMessage("Config reloaded successfully");
             }
         }else{
             sender.sendMessage("Please use the command as shown below");
